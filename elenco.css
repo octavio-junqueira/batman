@@ -1,0 +1,120 @@
+* {
+    margin: 20px;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #D21617;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+.titulo{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 50px;
+}
+
+.actor-card-container{
+    margin: 50px 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.cards-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     padding: 0 0 20px 10px;
+     color: red;
+     font-size: 17px;
+     font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.banner-1{
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/03/20/16/05/1007568.jpg');
+}
+
+.banner-2{
+    background-image: url('https://s2.glbimg.com/OgxvRGGju28fMNySYbgmE-FH63Q=/0x0:4368x2912/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2022/b/O/20dH24Qh6IWxO309DkNw/gettyimages-1340152588.jpg');
+}
+
+.banner-3{
+    background-image: url('https://flxt.tmsimg.com/assets/82013_v9_bc.jpg');
+}
+
+.banner-4{
+    background-image: url('https://es.web.img2.acsta.net/pictures/20/02/24/16/11/1210686.jpg');
+}
+
+.banner-5{
+    background-image: url('https://imagens.brasil.elpais.com/resizer/bPWSxGjfHjNyb7ivRSkRkjL7J-E=/980x980/cloudfront-eu-central-1.images.arcpublishing.com/prisa/VYLIOSCEYRAHJEHP5RNTUGCIYM.jpg');
+}
+
+.banner-6{
+    background-image: url('https://static.wikia.nocookie.net/esstarwars/images/1/10/Andy_Serkis.jpg/revision/latest?cb=20140529120613');
+}
+
+.banner-7{
+    background-image: url('https://flxt.tmsimg.com/assets/33505_v9_ba.jpg');
+}
